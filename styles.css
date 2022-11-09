@@ -25,6 +25,7 @@ h2 {
     background-color: rgb(82, 82, 82);
     border-radius: 15px;
     padding: 15px;
+    margin-bottom: 150px;
 } 
 
 .screen {
@@ -33,14 +34,16 @@ h2 {
     justify-content: end;
     background-color: rgb(216, 216, 216);
     border-radius: 10px;
-    width: 240px;
+    width: 95%;
     padding: 10px;
     margin: 5px;
 }
 
 .container {
     display: flex;
-    width: auto;
+    justify-content: space-around;
+    width: 380px;
+    border-radius: 10px;
 
 }
 
@@ -56,15 +59,21 @@ button.number {
     background-color: blanchedalmond;
 }
 
-button.delet {
-    background-color: rgb(197, 59, 59);
+button.delete {
+    background-color: rgb(202, 71, 71);
+    width: 180px;
+}
+
+button.clear {
+    background-color: rgb(235, 147, 147);
+    width: 180px;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
     font-size: 20px;
     background-color: rgb(114, 114, 114);
-    text-align: ;
+    width: 99%;
+    text-align: center;
+    padding: 10px;
 
 }
