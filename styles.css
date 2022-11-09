@@ -1,0 +1,70 @@
+* {
+    background-color: rgb(245, 245, 245);
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(82, 82, 82);
+    border-radius: 15px;
+    padding: 15px;
+} 
+
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    width: auto;
+
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(255, 207, 134);
+}
+
+button.number {
+    background-color: blanchedalmond;
+}
+
+button.delet {
+    background-color: rgb(197, 59, 59);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    background-color: rgb(114, 114, 114);
+    text-align: ;
+
+}
