@@ -55,8 +55,16 @@ button {
     background-color: rgb(255, 207, 134);
 }
 
+button:hover {
+    background-color: rgb(233, 172, 81);
+}
+
 button.number {
     background-color: blanchedalmond;
+}
+
+button.number:hover {
+    background-color: rgb(252, 216, 161);
 }
 
 button.delete {
@@ -64,8 +72,18 @@ button.delete {
     width: 180px;
 }
 
+button.delete:hover {
+    background-color: rgb(187, 42, 42);
+    width: 180px;
+}
+
 button.clear {
     background-color: rgb(235, 147, 147);
+    width: 180px;
+}
+
+button.clear:hover {
+    background-color: rgb(223, 107, 107);
     width: 180px;
 }
 
