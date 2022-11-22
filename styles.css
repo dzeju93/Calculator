@@ -31,13 +31,24 @@ h2 {
 .screen {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: rgb(216, 216, 216);
     border-radius: 10px;
-    width: 95%;
     height: 80px;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+}
+
+.calculator-screen {
+    display: flex;
+    width: 270px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #242424;
+    color: #fff;
+    font-size: xx-large;
+    text-align: end;
+    padding-right: 10px;
 }
 
 .container {
@@ -49,6 +60,10 @@ h2 {
 }
 
 button {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 80px;
     border-radius: 10px;
@@ -68,24 +83,12 @@ button.number:hover {
     background-color: rgb(252, 216, 161);
 }
 
-button.delete {
-    background-color: rgb(202, 71, 71);
-    width: 180px;
-}
-
-button.delete:hover {
-    background-color: rgb(187, 42, 42);
-    width: 180px;
-}
-
-button.clear {
+button.all-clear {
     background-color: rgb(235, 147, 147);
-    width: 180px;
 }
 
-button.clear:hover {
+button.all-clear:hover {
     background-color: rgb(223, 107, 107);
-    width: 180px;
 }
 
 .footer {
